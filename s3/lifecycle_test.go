@@ -2,7 +2,7 @@ package s3_test
 
 import (
 	"encoding/xml"
-	"github.com/crowdmob/goamz/s3"
+	"github.com/chrislusf/goamz/s3"
 	"gopkg.in/check.v1"
 	"io/ioutil"
 	"net/http"

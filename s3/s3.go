@@ -29,7 +29,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/crowdmob/goamz/aws"
+	"github.com/chrislusf/goamz/aws"
 )
 
 const debug = false
@@ -1037,7 +1037,8 @@ func (s3 *S3) doHttpRequest(hreq *http.Request, resp interface{}) (*http.Respons
 				}
 				return
 			},
-			Proxy: http.ProxyFromEnvironment,
+			Proxy:               http.ProxyFromEnvironment,
+			MaxIdleConnsPerHost: 1024,
 		},
 	}
 

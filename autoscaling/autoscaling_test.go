@@ -1,8 +1,8 @@
 package autoscaling
 
 import (
-	"github.com/crowdmob/goamz/autoscaling/astest"
-	"github.com/crowdmob/goamz/aws"
+	"github.com/chrislusf/goamz/autoscaling/astest"
+	"github.com/chrislusf/goamz/aws"
 	"testing"
 )
 

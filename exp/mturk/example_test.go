@@ -2,8 +2,8 @@ package mturk_test
 
 import (
 	"fmt"
-	"github.com/crowdmob/goamz/aws"
-	"github.com/crowdmob/goamz/exp/mturk"
+	"github.com/chrislusf/goamz/aws"
+	"github.com/chrislusf/goamz/exp/mturk"
 )
 
 var turk *mturk.MTurk
